@@ -10,6 +10,12 @@ MIT
 @angular/platform-browser
 MIT
 
+@angular/router
+MIT
+
+angular-google-tag-manager
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
