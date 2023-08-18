@@ -39,7 +39,9 @@ export class HeroesComponent implements OnInit {
       content: {
         page: 'My_Heroes',
         name: hero.name,
-        id: hero.id
+        id: hero.id,
+        popularity: hero.popularity,
+        adult: hero.adult,
       }
     })
   }

@@ -34,7 +34,9 @@ export class DashboardComponent implements OnInit {
       content: {
         page: 'Top_Heroes',
         name: hero.name,
-        id: hero.id
+        id: hero.id,
+        popularity: hero.popularity,
+        adult: hero.adult,
       }
     })
   }
