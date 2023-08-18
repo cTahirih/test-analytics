@@ -37,6 +37,7 @@ export class HeroesComponent implements OnInit {
     this.gtm.pushTag({
       event: 'viewHeroDetail',
       content: {
+        page: 'My_Heroes',
         name: hero.name,
         id: hero.id
       }
