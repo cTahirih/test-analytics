@@ -5,6 +5,7 @@
     <label for="hero-name">Hero name: </label>
     <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
   </div>
+  <img [src]="'./assets/' + hero.id + '.png'" [alt]="hero.name">
   <button type="button" (click)="goBack()">go back</button>
 </div>
 
